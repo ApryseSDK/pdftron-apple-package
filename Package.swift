@@ -12,11 +12,11 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PDFTron",
-            url: "https://www.pdftron.com/downloads/ios/package/8.1.2/PDFTron.xcframework.zip",
-            checksum: "55b3f1f21ee5d9c9729bef8f69fde1d97bd14f407edb55b5f3e79c17ddd771b1"),
+            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTron.xcframework.zip",
+            checksum: "816f3db41046a2f7eb0760983a69c7099827a2f521626343d3f7db904c80a9a0"),
         .binaryTarget(
             name: "PDFTronTools",
-            url: "https://www.pdftron.com/downloads/ios/package/8.1.2/PDFTronTools.xcframework.zip",
-            checksum: "f8b90ea9ac8888a512863154c4d6173e5c9001cf79631bf878b750380391cddb"),
+            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTronTools.xcframework.zip",
+            checksum: "3ecae0b15f2929fcbdcb65223887069526440663c411031dfff2002a3a63b02d"),
     ]
 )
