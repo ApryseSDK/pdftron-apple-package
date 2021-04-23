@@ -7,16 +7,16 @@ let package = Package(
     products: [
         .library(
             name: "PDFTron",
-            targets: ["PDFTron", "PDFTronTools"]),
+            targets: ["PDFNet", "Tools"]),
     ],
     targets: [
         .binaryTarget(
-            name: "PDFTron",
-            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTron.xcframework.zip",
-            checksum: "816f3db41046a2f7eb0760983a69c7099827a2f521626343d3f7db904c80a9a0"),
+            name: "PDFNet",
+            url: "https://www.pdftron.com/downloads/ios/packages/9.0.0/PDFNet.xcframework.zip",
+            checksum: "ebda373b05276806ef6f2f35204c8d61cf9e471afa7d41192e08a89719aea914"),
         .binaryTarget(
-            name: "PDFTronTools",
-            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTronTools.xcframework.zip",
-            checksum: "3ecae0b15f2929fcbdcb65223887069526440663c411031dfff2002a3a63b02d"),
+            name: "Tools",
+            url: "https://www.pdftron.com/downloads/ios/packages/9.0.0/Tools.xcframework.zip",
+            checksum: "f48afa00890ef112b079fa4a2768901955ece5a2fe0fd18f2463462698d469fc"),
     ]
 )
