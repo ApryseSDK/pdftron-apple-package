@@ -12,11 +12,11 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PDFNet",
-            url: "https://www.pdftron.com/downloads/ios/packages/9.4.0-80508/PDFNet.xcframework.zip",
-            checksum: "200045a81e2b2cff9fc8660a6824341d450fc2527fb4039010b9fcc7e167c419"),
+            url: "https://www.pdftron.com/downloads/ios/packages/9.4.1-80691/PDFNet.xcframework.zip",
+            checksum: "3dfc366c54e3d7ef98a0286227b66f4bce46477e59591db465d35f48cf637e35"),
         .binaryTarget(
             name: "Tools",
-            url: "https://www.pdftron.com/downloads/ios/packages/9.4.0-80508/Tools.xcframework.zip",
-            checksum: "b71743fe830b7edebc4ae31227143718b874e9a20fc4a93dd4755449f3b6b377"),
+            url: "https://www.pdftron.com/downloads/ios/packages/9.4.1-80691/Tools.xcframework.zip",
+            checksum: "06a1e9b20d958cc944a62032c3563553ef4fba848f1f510afeda51fb0ffef631"),
     ]
 )
